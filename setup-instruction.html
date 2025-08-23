@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Darshj.AI - Setup Instructions</title>
+  <style>
+    body { font-family: 'Segoe UI', sans-serif; background: #f9f9fb; color: #333; margin:0; }
+    header { background: linear-gradient(135deg, #667eea, #764ba2); color:white; padding:2rem; text-align:center; }
+    header h1 { margin:0; font-size:2rem; }
+    header p { margin:0.5rem 0 0; }
+    section { max-width:900px; margin:2rem auto; padding:2rem; background:white; border-radius:12px; box-shadow:0 5px 20px rgba(0,0,0,0.08); }
+    h2 { color:#764ba2; margin-top:0; }
+    code, pre { background:#f4f4f9; padding:0.2rem 0.4rem; border-radius:6px; font-family: monospace; }
+    .steps { padding-left:1.2rem; }
+    footer { text-align:center; padding:1.5rem; background:#eee; margin-top:2rem; font-size:0.9rem; }
+    .btn { display:inline-block; padding:0.7rem 1.2rem; margin:1rem 0; background:#667eea; color:white; border-radius:8px; text-decoration:none; transition:0.3s; }
+    .btn:hover { background:#764ba2; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🚀 Darshj.AI - Ultimate Transcription Dashboard</h1>
+    <p>Setup & Quick Start Guide</p>
+  </header>
+
+  <section>
+    <h2>1️⃣ Clone the Repository</h2>
+    <pre><code>git clone https://github.com/darshjme-codes/Darshj.AI-TranscripTool.git
+cd Darshj.AI-TranscripTool</code></pre>
+
+    <h2>2️⃣ Install Dependencies</h2>
+    <p>Run:</p>
+    <pre><code>pip install gradio openai-whisper ffmpeg-python numpy torch torchaudio pandas plotly humanize tqdm requests Pillow pydub psutil</code></pre>
+
+    <h2>3️⃣ Install FFmpeg</h2>
+    <ul class="steps">
+      <li><b>Windows</b>: <a href="https://ffmpeg.org/download.html" target="_blank">Download</a> & add to PATH</li>
+      <li><b>macOS</b>: <code>brew install ffmpeg</code></li>
+      <li><b>Linux</b>: <code>sudo apt install ffmpeg</code></li>
+    </ul>
+
+    <h2>4️⃣ Launch the Notebook</h2>
+    <pre><code>jupyter notebook App.ipynb</code></pre>
+    <p>Run all cells and open the dashboard link.</p>
+
+    <a class="btn" href="https://github.com/darshjme-codes/Darshj.AI-TranscripTool" target="_blank">🔗 Visit GitHub Repo</a>
+  </section>
+
+  <footer>
+    Made with ❤️ by Darshj.AI | <a href="https://github.com/darshjme-codes/Darshj.AI-TranscripTool">GitHub</a>
+  </footer>
+</body>
+</html>
