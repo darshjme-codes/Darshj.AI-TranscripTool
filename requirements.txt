@@ -1,0 +1,11 @@
+gradio>=4.0.0
+openai-whisper
+ffmpeg-python
+numpy
+torch
+torchaudio
+pandas
+plotly
+humanize
+Pillow
+psutil
